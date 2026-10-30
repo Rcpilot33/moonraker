@@ -23,7 +23,9 @@ if TYPE_CHECKING:
 
 BASE_CONFIG: Dict[str, Dict[str, str]] = {
     "moonraker": {
-        "origin": "https://github.com/arksine/moonraker.git",
+        "origin": "https://github.com/Rcpilot33/moonraker.git",
+        "primary_branch": "k2",
+        "channel": "dev",
         "requirements": "scripts/moonraker-requirements.txt",
         "venv_args": "-p python3",
         "system_dependencies": "scripts/system-dependencies.json",
